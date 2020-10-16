@@ -12,7 +12,9 @@ padding:5% 8%;
 }
 .selection{
   border-radius:5px;
-  border:2px solid black; padding-top:10px;   background-color: white;
+  border:2px solid black;
+  padding-top:10px;
+  background-color: white;
 }
 .selection:hover{
 background: grey;
@@ -28,4 +30,54 @@ color: black;
 .link:hover{
     color: black;
 }
+#Mob{
+  font-size:1.5rem ;
+}
+#DTH{
+  font-size: 1.5rem;
+}
+ @media (max-width: 1000px)  {
+#tv{
+  font-size: 2rem;
+}
+#Mob{
+  font-size:1rem ;
+}
+#DTH{
+  font-size: 1rem;
+}
+#Mobile{
+  font-size:2rem;
+}
+#bigmobile{
+  font-size:6rem;
+}
+#mbpad1{
+  text-align: center !important;
+}
+#mbpad{
+  text-align: center;
+  padding: 0;
+}
+.images{
+  height:120px !important
+}
+ }
+@media (max-width: 1300px){
+  #mbpad1{
+    text-align: center !important;
+  }
+  #mbpad{
+    text-align: center;
 
+  }
+  #dthid{
+  text-align: center !important;
+  }
+  #dthid1{
+      text-align: center !important;
+  }
+}
+.radio{
+  font-size: 1.5rem;
+}
