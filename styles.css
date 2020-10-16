@@ -1,0 +1,30 @@
+section{
+padding:5% 8%;
+  background-image: -webkit-linear-gradient(50deg,  #A683E3 50%, #E4E9FD 50%);
+}
+.row{
+  padding-bottom: 30px !important;
+  margin-bottom: 20px;
+}
+.jumbotron{
+  background-image: url("3.jpg");
+  background-size: cover;
+}
+.selection{
+  border-radius:5px;
+  border:2px solid black; padding-top:10px;   background-color: white;
+}
+.selection:hover{
+background: grey;
+font-weight: bolder;
+  transition-property: background-color ;
+transition-duration: .6s;
+transition-delay: .1s;
+color: black;
+}
+.link{
+  color: black;
+}
+.link:hover{
+    color: black;
+}
