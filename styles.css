@@ -1,6 +1,6 @@
 section{
 padding:5% 8%;
-  background-image: -webkit-linear-gradient(50deg,  #A683E3 50%, #E4E9FD 50%);
+background: #fff5ea;
 }
 .row{
   padding-bottom: 30px !important;
@@ -40,6 +40,9 @@ color: black;
 #tv{
   font-size: 2rem;
 }
+section{
+  padding: 5% 4%;
+}
 #Mob{
   font-size:1rem ;
 }
@@ -62,6 +65,9 @@ color: black;
 .images{
   height:120px !important
 }
+#mobilebtn{
+
+}
  }
 @media (max-width: 1300px){
   #mbpad1{
@@ -80,4 +86,25 @@ color: black;
 }
 .radio{
   font-size: 1.5rem;
+}
+#mobilebtn{
+  background: none;
+  border-radius: 0;
+  border-bottom: 2px dotted grey;
+}
+#dthbtn{
+    background: none;
+    border-radius: 0;
+    border-bottom: 2px dotted grey;
+}
+#mobilebtn:hover{
+  color: #cf1b1b;
+}
+#dthbtn:hover{
+  color: #cf1b1b;
+}
+@media (max-width: 700px){
+  section{
+    padding: 5% 4% !important;
+  }
 }
